@@ -9,7 +9,7 @@ var callback = function(){
     $('.icons-red').each(function(){
         height = $(this).height();
         $(this).animate({
-            height: 14,
+            height: 14
         }, 2000);
     });
 };

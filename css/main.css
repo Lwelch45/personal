@@ -1,6 +1,7 @@
 /*******************************************
 3ColorResume
 Author: office@kamsolutions.pl
+Edited by: lwelch1@ithaca.edu
 *******************************************/
 /*******************************************
 FONTS
@@ -352,4 +353,15 @@ MEDIA
     #education .description{
         width: 90%;
     }
+}
+/*******************************************
+General
+*******************************************/
+a {
+    color:#363636;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
