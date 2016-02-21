@@ -1,0 +1,172 @@
+body {
+    font-family: â€œHelvetica Neueâ€, Helvetica, Arial, sans-serif;
+    margin: auto;
+    max-width: 960px;
+    min-width: 630px;
+    font-size: 15px;
+}
+
+header {
+    font-size: 3em;
+    width: 100%;
+    border-bottom: 12px solid;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    margin-top: -30px
+}
+
+.header {
+    font-size: 2em;
+}
+
+header h1 span {
+    font-size: 1rem
+}
+
+header h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+div h1 {
+    font-size: 1em;
+}
+
+div h2 {
+    font-size: 1em;
+}
+
+div h3 {
+    font-size: 1em;
+}
+
+/**
+left column
+*/
+
+div#left {
+    width: 63%;
+    float: left;
+    font-size: 1em;
+}
+
+div#left ul{
+    margin-top: .5em;
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+div#left h1{
+    margin-top: 20px;
+}
+
+div#left h2{
+    font-size: 1.25em;
+    padding-top: 0;
+    margin-bottom: auto;
+}
+
+div#left h3{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
+
+
+/**
+Right col
+*/
+
+div#right {
+    width: 25%;
+    float: right;
+    height: 100%;
+}
+
+div#right h1 {
+    padding-bottom: 1px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+
+div#right h2 {
+    font-size: 0.8em;
+    margin-bottom: .3em;
+    width: 100%;
+    border-bottom-width: 3px;
+}
+
+div#right ul {
+    font-size: 0.8em;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+div#right ul li  {
+    margin-top: 0;
+    display: inline;
+}
+
+div#right p  {
+    font-size: 0.8em;
+}
+
+div#right i {
+    margin: auto;
+}
+
+div#right li:last-child:after  {
+    content: "."
+}
+
+div#right li:after  {
+    content: " +"
+}
+
+div#right footer {
+    font-size: 0.5em;
+    margin-bottom: 0;
+    position: absolute;
+}
+
+a {
+    color: black;
+}
+
+
+#github:hover {
+    color: #AA2200;
+}
+
+#twitter:hover {
+    color: #00aced;
+}
+
+#email:hover {
+    color: #ea4c89;
+}
+
+#linkedin:hover {
+    color: #0077B5;
+}
+
+
+
+@media print {
+    body {
+        width: 850px;
+        font-size: 15px;
+        margin: auto;
+    }
+
+    header {
+        margin-top: 2.5em;
+        font-size: 2.5em;
+    }
+
+    div#left ul {
+        font-size: 12px;
+    }
+
+}
