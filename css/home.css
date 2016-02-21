@@ -15,12 +15,16 @@ header {
     margin-top: -30px
 }
 
+.blue {
+    color: darkgray;
+}
+
 .header {
     font-size: 2em;
 }
 
 header h1 span {
-    font-size: 1rem
+    font-size: 1rem;
 }
 
 header h1 {

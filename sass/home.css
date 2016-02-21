@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+  font-family: â€œHelvetica Neueâ€, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  max-width: 960px;
+  min-width: 630px;
+  margin: auto; }
+
+header {
+  margin-bottom: 1px;
+  margin-top: -30px;
+  border-bottom: 12px solid;
+  padding-bottom: 1px;
+  font-size: 3em;
+  width: 100%; }
+
+.history > header {
+  font-size: 2em; }
+
+.work_item > .company {
+  font-size: 1.25em;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: auto; }
+.work_item:after {
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=home.css.map */
