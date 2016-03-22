@@ -22,7 +22,69 @@ header {
   padding-top: 0;
   margin-top: 0;
   margin-bottom: auto; }
+.work_item > .title {
+  font-size: 3em;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0; }
+.work_item > ul {
+  margin-top: .5em;
+  padding-left: 1em;
+  margin-left: 0; }
+.work_item > ul .special {
+  font-style: italic;
+  margin-left: -1em; }
 .work_item:after {
   margin-bottom: 30px; }
+
+.col-right > .work_item > li
+:after {
+  content: "+"; }
+.col-right :last-child:after {
+  content: " ."; }
+
+@media (max-width: 320px) {
+  .col-right {
+    display: none !important; } }
+@media print {
+  body {
+    width: 850px;
+    font-size: 15px;
+    margin: auto; }
+
+  header {
+    margin-top: 2.5em;
+    font-size: 2.5em; }
+
+  .col-left > .work_item ul {
+    font-size: 12px; } }
+/**
+body
+-- col left
+-- -- history
+-- -- -- work item
+-- -- -- -- company
+-- -- -- -- title
+-- -- -- -- bullet points
+-- -- -- work item
+-- -- -- -- company
+-- -- -- -- title
+-- -- -- -- bullet points
+-- -- history type
+-- -- -- work item
+-- -- -- -- company
+-- -- -- -- title
+-- -- -- -- bullet points
+-- -- -- work item
+-- -- -- -- company
+-- -- -- -- title
+-- -- -- -- bullet points
+-- -- --
+-- --
+--
+-- col right
+-- 
+*/
 
 /*# sourceMappingURL=home.css.map */

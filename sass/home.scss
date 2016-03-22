@@ -46,10 +46,92 @@ header {
   }
 
   > .title { // second row
+    font-size: 3em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 
+  > ul { // bullet points
+    margin-top: .5em;
+    padding-left: 1em;
+    margin-left: 0;
+  }
+
+  > ul .special { // special notes
+    font-style: italic;
+    margin-left: -1em;
   }
 
   &:after {
     margin-bottom: 30px; // add space between bottom and next item
   }
 }
+
+.col-left { // holding class
+
+}
+
+.col-right {
+   > .work_item > li
+  :after {
+    content: "+";
+  }
+  :last-child:after {
+    content: " ."
+  }
+}
+
+@media (max-width: 320px){
+  .col-right {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px){
+}
+
+@media print {
+  body {
+    width: 850px;
+    font-size: 15px;
+    margin: auto;
+  }
+
+  header {
+    margin-top: 2.5em;
+    font-size: 2.5em;
+  }
+
+  .col-left > .work_item ul {
+    font-size: 12px;
+  }
+
+}
+/**
+body
+-- col left
+-- -- history
+-- -- -- work item
+-- -- -- -- company
+-- -- -- -- title
+-- -- -- -- bullet points
+-- -- -- work item
+-- -- -- -- company
+-- -- -- -- title
+-- -- -- -- bullet points
+-- -- -- work item
+-- -- -- -- company
+-- -- -- -- title
+-- -- -- -- bullet points
+-- -- -- work item
+-- -- -- -- company
+-- -- -- -- title
+-- -- -- -- bullet points
+-- -- --
+-- --
+--
+-- col right
+--
+*/
